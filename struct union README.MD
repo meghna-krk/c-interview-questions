@@ -20,7 +20,7 @@ here the memory size is 4 bytes.
 
 3) what is typedef?
 
-typedef is a keyword which is used to crate a newname for exisisted data type.it is easy to use ,commonly used in struct and union.
+typedef is a keyword which is used to create a newname for exisisted data type.it is easy to use ,commonly used in struct and union.
 
 4) what is structure padding?
 
@@ -47,8 +47,20 @@ slower memory access
 reduced performance
 complier and platform dependence
 
-8) what is file handling?
+8) What is anonymous Structure?
 
-when we want to store the program or data permanently in a file we use file handling.
-we can read,write,store,fetch, delete or add,open or close the data in file.
+A structure which is declared without tag is called as a anonymous Structure .
+
+9) Can a structure have static members in           c?
+
+No In C, structure members cannot be declared static.
+struct Student
+{
+    static int count;   //  Not allowed in C
+};
+
+10) What is a pointer to a structure?
+
+A pointer to a structure is a pointer variable that stores the address of a structure.
+
 
